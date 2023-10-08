@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 25px;
+}
+.dropdown img{
+    margin-top: 11px;
+} 
+.option{
+    width: 110%;
+    padding: 5px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    height: 55px;
+    font-size: 1.1rem;
+    border-bottom: 5px solid rgb(133, 133, 224);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 64, 119);
+    font-weight: bold;
+}
+.my-profile{
+    text-decoration: none;
+    color: white;
+}
+.profile{
+    border-radius: 50%;
+    border: 1px solid rgb(0, 64, 119);
+}
+.feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feed-content{
+    width: 90%;
+    /* display: flex; */
+}

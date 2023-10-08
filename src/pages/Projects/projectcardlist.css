@@ -1,0 +1,7 @@
+
+.project-list{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 20rem;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}

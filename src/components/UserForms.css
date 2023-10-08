@@ -1,0 +1,100 @@
+.form__header > h1 {
+    text-align: center;
+    margin-top: 20px;
+
+    font-size: 32px; 
+    color: #007bff; 
+    margin: 20px 0;  
+    text-transform: uppercase;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 10px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    border-bottom: 5px solid rgb(0, 64, 119);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.side label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.side input,
+.side textarea {
+    flex: 2;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    width: 75%;
+
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

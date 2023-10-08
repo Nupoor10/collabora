@@ -1,0 +1,40 @@
+.user-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 90%;
+    background-color: rgb(214, 234, 251);
+    /* transform: translateX(50%); */
+    overflow: hidden;
+    animation: loadCard 0.4s ease-out;
+    z-index: 0;
+    height: 25rem;
+    border: 0.02rem solid rgb(191, 194, 193);
+}
+
+.user-card img{
+position: relative;
+background-color: white;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+flex-shrink: 0;
+border-radius: 0px 0px 25px 25px;
+/* overflow: hidden; */
+user-select: none;
+height: 204px;
+width: 100%;
+}
+
+.user-card h3{
+    font-style:oblique ;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.user-card p{
+    padding: 0px 20px 0px 20px;
+    margin-top: -20px;
+}
